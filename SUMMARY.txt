@@ -1,0 +1,26 @@
+project structure:
+- package.json
+- tsconfig.json
+- next.config.mjs
+- postcss.config.cjs
+- tailwind.config.cjs
+- .eslintrc.cjs
+- .prettierrc
+- .env.example
+- supabase/sql/supabase_schema_mvp.sql
+- src/app/(public)/login/page.tsx
+- src/app/(morador)/morador/[pages]
+- src/app/(sindico)/sindico/[pages]
+- src/app/(porteiro)/porteiro/[pages]
+- src/app/(vision)/kiosk/page.tsx
+- components/*
+- lib/*
+- styles/globals.css
+- scripts/seed.ts
+- tests/reservas.test.ts
+
+setup rapido:
+1. `npm install`
+2. preencher `.env`
+3. `npm run dev`
+4. `npm test`

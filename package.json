@@ -1,0 +1,40 @@
+{
+  "name": "condo-saas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.4",
+    "zod": "^3.22.2",
+    "react-hook-form": "^7.45.0",
+    "lucide-react": "^0.292.0",
+    "tailwindcss": "^3.4.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "@radix-ui/react-toast": "^1.1.4",
+    "resend": "^2.0.0",
+    "firebase": "^10.7.0",
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.1.0",
+    "prettier": "^3.0.0",
+    "vitest": "^0.34.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.11.0",
+    "husky": "^8.0.0"
+  }
+}
